@@ -1,3 +1,5 @@
+(PS:图片有点多,网速不好的请耐心等待一下。。)
+
 ---
 
 ##导航
@@ -9,6 +11,8 @@
 
 ###1.在 GitHub 初始化一个分类仓库（DWCategory）
 
+![Category.png](http://7xlv6p.com1.z0.glb.clouddn.com/Category_min.png)
+
 ###2.clone 到本地，配置文件，再上传
 
 - 把 GitHub 上的项目克隆到本地。(打开终端，cd 到桌面)
@@ -17,9 +21,13 @@
 git clone git@github.com:Damonvvong/DWCategory.git
 
 ```
+![Category_Clone](http://7xlv6p.com1.z0.glb.clouddn.com/Category_Clone.png)
+
 > 这里是利用 SSH 方式 clone,配置 SSH[教程传送门](https://help.github.com/articles/generating-ssh-keys/)
 
 - 把自己的分类放入桌面的DWCategory文件夹中,如下。
+
+![Dir](http://7xlv6p.com1.z0.glb.clouddn.com/Dir.png)
 
 - 给仓库创建一个 podspec 文件
 
@@ -60,12 +68,14 @@ git tag -m "first release" 0.1.0
 git push --tags
 ```
 
+![Commit](http://7xlv6p.com1.z0.glb.clouddn.com/Catagory_commit.png
+)
+
 
 - 检查 podspec 文件是否编写正确。
 
 ```
 pod lib lint
-
 ```
 - 如果有错误，就把错误修改了，并上传到 GitHub 上
 
@@ -105,16 +115,13 @@ pod trunk push DWCategory.podspec
 
 ```
 pod search DWCategory
-
 ```
 
 > 下面就可以通过编写Podfile 文件，利用 Cocoapods 集成自己写的文件了
 
 ```
-
 platform :ios, "6.0"
 pod 'DWCategory'
-
 ```
 
 #Done！
