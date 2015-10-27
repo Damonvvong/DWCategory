@@ -1,11 +1,11 @@
 ---
 
 ##导航
-- [2015-10-27](https://github.com/Damonvvong/DWCategory#借助 GitHub 托管 Category，利用 CocoaPods 集成到项目中。)
+1. [2015-10-27](https://github.com/Damonvvong/DWCategory#2015-10-27)
 
 ---
 
-#借助 GitHub 托管 Category，利用 CocoaPods 集成到项目中。
+##<a id="2015-10-27"></a>借助GitHub托管Category,利用CocoaPods集成到项目中。
 
 ###1.在 GitHub 初始化一个分类仓库（DWCategory）
 
