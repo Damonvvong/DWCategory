@@ -1,4 +1,4 @@
-(PS:图片有点多,网速不好的请耐心等待一下。。)
+(PS:图片有点多,网速不好的请耐心等待一下。。如果觉得这个过程太过简洁，可以看看我昨天学习时写的[笔记](https://github.com/Damonvvong/DWLog)又长又臭=。=)
 
 ---
 
@@ -77,6 +77,9 @@ git push --tags
 ```
 pod lib lint
 ```
+
+![Catagory_result](http://7xlv6p.com1.z0.glb.clouddn.com/Catagory_result.png
+)
 - 如果有错误，就把错误修改了，并上传到 GitHub 上
 
 ### 利用[Trunk](http://guides.cocoapods.org/making/getting-setup-with-trunk.html)把自己的 DWCategory.podspec 文件上传给 Cocoapods
@@ -84,7 +87,7 @@ pod lib lint
 #####1.注册
 
 ```
-➜  /Users/damon/Desktop/DWLog git:(master) >pod trunk register coderonevv@gmail.com 'Damonwong' --verbose
+pod trunk register coderonevv@gmail.com 'Damonwong' --verbose
 ```
 - coderonevv@gmail.com：自己的邮箱
 - Damonwong：用户名（最好和.podspec 文件 中一样）
@@ -95,7 +98,7 @@ pod lib lint
 - 检查注册情况：pod trunk me（看到类似下面，就是成功了）
 
 ```
-➜  /Users/damon/Desktop/DWLog git:(master) >pod trunk me
+pod trunk me
   - Name:     Damonwong
   - Email:    coderonevv@gmail.com
 ```
