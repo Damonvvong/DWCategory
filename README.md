@@ -37,6 +37,11 @@ pod spec create DWCategory git@github.com:Damonvvong/DWCategory.git
 
 ```
 
+
+![Catagory_result](http://7xlv6p.com1.z0.glb.clouddn.com/Catagory_result.png
+)
+
+
 - 编写 podspec 文件
 
 ```
@@ -78,8 +83,8 @@ git push --tags
 pod lib lint
 ```
 
-![Catagory_result](http://7xlv6p.com1.z0.glb.clouddn.com/Catagory_result.png
-)
+![pod_lib_lint](http://7xlv6p.com1.z0.glb.clouddn.com/pod_lib_lint.png)
+
 - 如果有错误，就把错误修改了，并上传到 GitHub 上
 
 ### 利用[Trunk](http://guides.cocoapods.org/making/getting-setup-with-trunk.html)把自己的 DWCategory.podspec 文件上传给 Cocoapods
@@ -119,6 +124,8 @@ pod trunk push DWCategory.podspec
 ```
 pod search DWCategory
 ```
+
+![Succeed](http://7xlv6p.com1.z0.glb.clouddn.com/Category_Succeed.png)
 
 > 下面就可以通过编写Podfile 文件，利用 Cocoapods 集成自己写的文件了
 
