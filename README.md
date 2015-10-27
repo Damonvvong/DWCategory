@@ -1,4 +1,8 @@
-(PS:图片有点多,网速不好的请耐心等待一下。。如果觉得这个过程太过简洁，可以看看我昨天学习时写的[笔记](https://github.com/Damonvvong/DWLog)又长又臭=。=)
+(PS:图片有点多,网速不好的请耐心等待一下。。)
+
+> 手机用户点一下 View All of README.md 
+
+
 
 ---
 
@@ -9,6 +13,7 @@
 
 ##<a id="2015-10-27"></a>借助GitHub托管Category,利用CocoaPods集成到项目中。
 
+（如果觉得这个过程太过简洁，可以看看我昨天学习时写的[笔记](https://github.com/Damonvvong/DWLog)又长又臭=。=）
 ###1.在 GitHub 初始化一个分类仓库（DWCategory）
 
 ![Category.png](http://7xlv6p.com1.z0.glb.clouddn.com/Category_min.png)
