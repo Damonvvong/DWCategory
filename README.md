@@ -1,7 +1,7 @@
 (PS:图片有点多,网速不好的请耐心等待一下。。手机用户点一下 View All of README.md 查看详情)
 
 - 关于私有 pod ，其实原理大致相同，如果不能参悟的朋友,耐心等待，待我有空再研究一下私有 pod。
-- 除了方便的管理一些自己写的分类，其实这个技能也是日后自己写第三方框架集成 Cocoapods 快速上手技能。
+- 除了方便的管理一些自己写的分类，其实这个技能也是日后自己写第三方框架集成 CocoaPods 快速上手技能。
 - 好记星不如烂笔头，对于这种不常用的技能，只能写一篇笔记，日后好快速恢复。
 - TODO：
 	- 增加一些常用的分类。
@@ -96,7 +96,7 @@ pod lib lint
 
 - 如果有错误，就把错误修改了，并上传到 GitHub 上
 
-### 利用[Trunk](http://guides.cocoapods.org/making/getting-setup-with-trunk.html)把自己的 DWCategory.podspec 文件上传给 Cocoapods
+### 利用[Trunk](http://guides.cocoapods.org/making/getting-setup-with-trunk.html)把自己的 DWCategory.podspec 文件上传给 CocoaPods
 
 #####1.注册
 
@@ -117,7 +117,7 @@ pod trunk me
   - Email:    coderonevv@gmail.com
 ```
 
-#####3.上传DWCategory.podspec 到 Cocoapods/repo
+#####3.上传DWCategory.podspec 到 CocoaPods/repo
 - 进入 文件所在文件夹
 ```
 	cd /Users/damon/Desktop/DWCategory 
@@ -136,7 +136,7 @@ pod search DWCategory
 
 ![Succeed](http://7xlv6p.com1.z0.glb.clouddn.com/Category_Succeed.png)
 
-> 下面就可以通过编写Podfile 文件，利用 Cocoapods 集成自己写的文件了
+> 下面就可以通过编写Podfile 文件，利用 CocoaPods 集成自己写的文件了
 
 ```
 platform :ios, "6.0"
