@@ -85,7 +85,7 @@ end
 ```
 - 编写完运行 `pod lib lint ` ，出现如下图 运行无误
 
-![](media/14743849162991/14743887788131.jpg)
+![](http://7xlv6p.com1.z0.glb.clouddn.com/2016-09-21-14743887788131.jpg)
 
 
 ### 3. 将 podspec 上传到 CocoaPods 的 repo 上
@@ -122,14 +122,14 @@ pod trunk me
 ```
 pod trunk push /Users/damon/Desktop/DWCategory 
 ```
-![](media/14743849162991/14743893395429.jpg)
+![](http://7xlv6p.com1.z0.glb.clouddn.com/2016-09-21-14743893395429.jpg)
 
 ####4.上传完成，查找一下
 
 ```
 pod search DWCategory
 ```
-![](media/14743849162991/14743893649835.jpg)
+![](http://7xlv6p.com1.z0.glb.clouddn.com/2016-09-21-14743893649835.jpg)
 
 ## Done! 现在可以用 `pod 'DWCategory' ` 来导入了
 
@@ -156,7 +156,7 @@ pod search DWCategory
     - 1.在私有源代码管理上创建一个空仓库。
     - 2.到本地 在命令行中输入 `pod repo add REPO_NAME SOURCE_URL` 期中REPO_NAME 是你的 repo 名字 例如 DWRepo , SOURCE_URL 是你的 空仓库的 地址。【这一步在本地的`~/.cocoapods/repo` 下初始化了一个 DWRepo,同时 git push 到了 SOURCE_URL】
 
-    ![](media/14743849162991/14744505463235.jpg)
+    ![](http://7xlv6p.com1.z0.glb.clouddn.com/2016-09-21-14744505463235.jpg)
 
 ### 3. 私有 pod
 - 这一步[这里](https://github.com/Damonvvong/DWCategory#GitHubInit)步骤类似。只需要把代码仓库改为私有的就行。
@@ -207,6 +207,8 @@ git clone git@github.com:Damonvvong/DWCategory.git
 - 把自己的分类放入桌面的DWCategory文件夹中,如下。
 
 ![Dir](http://7xlv6p.com1.z0.glb.clouddn.com/Dir.png)
+
+
 
 
 > 本文编辑于 2016年9月20日
