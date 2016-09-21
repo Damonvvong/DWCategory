@@ -169,6 +169,8 @@ pod search DWCategory
 
 ### ok！Done。
 
+---
+
 ### 关于私有 pod
 
 - 你可以按照上面步骤搭建一个 类似 Cocoapods 的 方案
@@ -187,6 +189,7 @@ end
 - 当然上面的 :git 可以改为 :path 来导入本地的 库
 
 
+---
 
 ###<a id="GitHubInit"></a>1.在 GitHub 初始化一个分类仓库（DWCategory）
 
