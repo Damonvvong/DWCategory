@@ -93,7 +93,7 @@ end
 > 利用[Trunk](http://guides.cocoapods.org/making/getting-setup-with-trunk.html)把自己的 DWCategory.podspec 文件上传给 Cocoapods
     
 
-####1.注册
+#### 1.注册
 
 ```
 pod trunk register coderonevv@gmail.com 'Damonwong' --verbose
@@ -101,7 +101,7 @@ pod trunk register coderonevv@gmail.com 'Damonwong' --verbose
 - coderonevv@gmail.com：自己的邮箱
 - Damonwong：用户名（最好和.podspec 文件 中一样）
 
-####2.检查是否注册成功
+#### 2.检查是否注册成功
 - 登录邮箱，确认注册
 
 - 检查注册情况：pod trunk me（看到类似下面，就是成功了）
@@ -112,7 +112,7 @@ pod trunk me
   - Email:    coderonevv@gmail.com
 ```
 
-####3.上传DWCategory.podspec 到 Cocoapods/repo
+#### 3.上传DWCategory.podspec 到 Cocoapods/repo
 - 进入 文件所在文件夹
 ```
 	cd /Users/damon/Desktop/DWCategory 
@@ -124,7 +124,7 @@ pod trunk push /Users/damon/Desktop/DWCategory
 ```
 ![](http://7xlv6p.com1.z0.glb.clouddn.com/2016-09-21-14743893395429.jpg)
 
-####4.上传完成，查找一下
+#### 4.上传完成，查找一下
 
 ```
 pod search DWCategory
@@ -191,11 +191,11 @@ end
 
 ---
 
-###<a id="GitHubInit"></a>1.在 GitHub 初始化一个分类仓库（DWCategory）
+### <a id="GitHubInit"></a>1.在 GitHub 初始化一个分类仓库（DWCategory）
 
 ![Category.png](http://7xlv6p.com1.z0.glb.clouddn.com/Category_min.png)
 
-###2.clone 到本地，配置文件，再上传
+### 2.clone 到本地，配置文件，再上传
 
 - 把 GitHub 上的项目克隆到本地。(打开终端，cd 到桌面)
 
